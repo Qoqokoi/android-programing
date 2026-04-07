@@ -34,7 +34,8 @@ Tambahkan baris ini ke file konfigurasi shell lo (.zshrc atau .bashrc):
 Bash
 export ANDROID_HOME=/opt/android-sdk
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
-📂 III. STRUKTUR PROJECT
+
+## 📂 III. STRUKTUR PROJECT
 Jangan asal naruh file! Gradle sangat sensitif soal alamat:
 
 Plaintext
@@ -47,7 +48,8 @@ project-root/
 ├── gradle.properties        # Konfigurasi sistem Gradle
 ├── settings.gradle.kts      # Navigasi folder project
 └── .gitignore               # Filter agar file 'build' tidak ter-push ke GitHub
-🚀 IV. MANTRA EKSEKUSI (BUILD & RUN)
+
+## 🚀 IV. MANTRA EKSEKUSI (BUILD & RUN)
 Gunakan perintah ini di terminal untuk merakit dan menjalankan aplikasi:
 
 Inisialisasi Project: (Hanya sekali di awal)
@@ -75,7 +77,7 @@ mv app/src/main/kotlin/com/qoqokoi/myapp app/src/main/kotlin/com/nama/app
 Update Code:
 Buka MainActivity.kt dan ganti baris paling atas menjadi: package com.nama.app
 
-🕵️ VI. TROUBLESHOOTING (ANTI-RTO)
+## 🕵️ VI. TROUBLESHOOTING (ANTI-RTO)
 LSP Neovim Merah: Jalankan ./gradlew build sekali agar Gradle men-download semua library yang dibutuhkan, lalu restart LSP dengan :LspRestart.
 
 HP Tidak Terdeteksi: Ketik adb devices. Pastikan USB Debugging di HP sudah aktif.
