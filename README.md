@@ -31,7 +31,6 @@ Bash
 yes | /opt/android-sdk/cmdline-tools/latest/bin/sdkmanager --licenses
 Set Environment Path:
 Tambahkan baris ini ke file konfigurasi shell lo (.zshrc atau .bashrc):
-
 Bash
 export ANDROID_HOME=/opt/android-sdk
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
