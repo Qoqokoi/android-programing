@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qoqokoi.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/a80fb65d3ba2766e918f475bee2e8e44/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.qoqokoi.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/a80fb65d3ba2766e918f475bee2e8e44/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/a80fb65d3ba2766e918f475bee2e8e44/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.qoqokoi.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/a80fb65d3ba2766e918f475bee2e8e44/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/a80fb65d3ba2766e918f475bee2e8e44/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:3:5-10:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/a80fb65d3ba2766e918f475bee2e8e44/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+19        android:extractNativeLibs="false"
+20        android:label="QoqokoiApp"
+20-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:3:18-44
+21        android:theme="@style/Theme.AppCompat" >
+21-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:3:45-83
+22        <activity
+22-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:4:9-9:20
+23            android:name="com.qoqokoi.myapp.MainActivity"
+23-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:4:19-47
+24            android:exported="true" >
+24-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:4:48-71
+25            <intent-filter>
+25-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:5:13-8:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:6:17-69
+26-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:6:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:7:17-77
+28-->/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/src/main/AndroidManifest.xml:7:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+34            android:authorities="com.qoqokoi.myapp.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/c32cbd017c7bdab685b481f4cebeaa1d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/b742bcf6c816f5930ee155ef5f4b58f3/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/b742bcf6c816f5930ee155ef5f4b58f3/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/Qoqokoi/.gradle/caches/9.4.1/transforms/b742bcf6c816f5930ee155ef5f4b58f3/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>
