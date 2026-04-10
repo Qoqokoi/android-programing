@@ -1,4 +1,4 @@
-#Fri Apr 10 13:12:13 WIB 2026
+#Fri Apr 10 14:07:39 WIB 2026
 base.2=/home/Qoqokoi/Documents/kuliah/android-programing/project-tugas-1/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
 path.2=10/classes.dex
 base.1=/home/Qoqokoi/Documents/kuliah/android-programing/project-tugas-1/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

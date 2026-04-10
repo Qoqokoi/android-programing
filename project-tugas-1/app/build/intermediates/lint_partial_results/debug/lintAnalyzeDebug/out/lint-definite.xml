@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="incidents">
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/qoqokoi/tugas1/MainActivity.kt"
+            line="15"
+            column="24"
+            startOffset="416"
+            endLine="15"
+            endColumn="46"
+            endOffset="438"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*2}/com/qoqokoi/tugas1/MainActivity.kt"
+            line="15"
+            column="25"
+            startOffset="417"
+            endLine="15"
+            endColumn="45"
+            endOffset="437"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.5.0 is available: 9.1.0. (There is also a newer version of 8.5.𝑥 available, if upgrading to 9.1.0 is difficult: 8.5.2)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 9.1.0"
+                family="Update versions"
+                oldString="8.5.0"
+                replacement="9.1.0"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.5.2"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.5.0"
+                replacement="8.5.2"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="2"
+            column="43"
+            startOffset="52"
+            endLine="2"
+            endColumn="50"
+            endOffset="59"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.18.0">
+        <fix-replace
+            description="Change to 1.18.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.18.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="27"
+            column="20"
+            startOffset="574"
+            endLine="27"
+            endColumn="51"
+            endOffset="605"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="28"
+            column="20"
+            startOffset="626"
+            endLine="28"
+            endColumn="56"
+            endOffset="662"/>
+    </incident>
+
+</incidents>

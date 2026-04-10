@@ -1,0 +1,4 @@
+#Fri Apr 10 14:07:42 WIB 2026
+base.0=/home/Qoqokoi/Documents/kuliah/android-programing/project-tugas-1/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
