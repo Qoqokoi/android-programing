@@ -1,4 +1,4 @@
-/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/build.gradle.kts:2: Warning: A newer version of com.android.application than 8.5.0 is available: 9.1.0. (There is also a newer version of 8.5.𝑥 available, if upgrading to 9.1.0 is difficult: 8.5.2) [AndroidGradlePluginVersion]
+/home/Qoqokoi/Documents/kuliah/android-programing/project-contoh/app/build.gradle.kts:2: Warning: A newer version of com.android.application than 8.5.0 is available: 9.1.1. (There is also a newer version of 8.5.𝑥 available, if upgrading to 9.1.1 is difficult: 8.5.2) [AndroidGradlePluginVersion]
     id("com.android.application") version "8.5.0"
                                           ~~~~~~~
 
