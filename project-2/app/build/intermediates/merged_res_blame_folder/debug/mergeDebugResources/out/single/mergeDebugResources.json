@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_dice_6.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/dice_6.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_dice_2.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/dice_2.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_dice_3.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/dice_3.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_dice_5.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/dice_5.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_dice_4.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/dice_4.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_dice_1.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/dice_1.xml"
+    }
+]

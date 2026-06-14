@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+drawable dice_1
+drawable dice_2
+drawable dice_3
+drawable dice_4
+drawable dice_5
+drawable dice_6
