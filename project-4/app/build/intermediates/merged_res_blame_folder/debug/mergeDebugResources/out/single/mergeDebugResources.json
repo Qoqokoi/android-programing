@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_lemon_restart.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/lemon_restart.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_lemon_drink.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/lemon_drink.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_lemon_tree.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/lemon_tree.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-40:/drawable_lemon_squeeze.xml.flat",
+        "source": "com.qoqokoi.myapp-main-42:/drawable/lemon_squeeze.xml"
+    }
+]
