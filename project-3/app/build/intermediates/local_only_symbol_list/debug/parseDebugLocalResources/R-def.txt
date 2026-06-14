@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+drawable lemon_drink
+drawable lemon_restart
+drawable lemon_squeeze
+drawable lemon_tree
