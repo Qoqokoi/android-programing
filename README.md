@@ -1,7 +1,9 @@
 # 🤖 ANDROID CLI DEVELOPMENT GUIDE (ARCH LINUX)
 **Custom Built by Qoqokoi | Powered by Arch Linux & Neovim**
 
-> **"Hanya orang lemah yang butuh GUI berat. Real Engineer ngerakit aplikasi dari Terminal."** 🗿
+> **"KUmpulan Tugas Project Android dalam matakuliah Pemonggrama Perangkat Bergerak"**
+
+> **"Muhammad Dafi Al Haq - TI - 7452024611067-"**
 
 Dokumentasi ini dibuat untuk lo yang ingin membangun aplikasi Android secara murni menggunakan Command Line Interface (CLI) di Arch Linux, tanpa bantuan Android Studio.
 
