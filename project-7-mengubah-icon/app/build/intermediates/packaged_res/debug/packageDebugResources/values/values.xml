@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="affirmation1">Tetap Konsisten Menggunakan Arch Linux.</string>
+    <string name="affirmation2">Kompilasi Sukses Adalah Hasil Dari Logika Dingin.</string>
+    <string name="affirmation3">Jangan Pernah Terjebak Sunken Cost Fallacy.</string>
+    <string name="affirmation4">Setiap Bug Adalah Peluang Optimalisasi Sistem.</string>
+    <string name="affirmation5">Infrastruktur CLI Jauh Lebih Efisien Daripada IDE.</string>
+    <string name="affirmation6">High-Value Asset Selesai Tanpa Cacat.</string>
+    <string name="app_name">Affirmations App</string>
+</resources>
