@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+drawable poto1
+drawable poto2
+drawable poto3
+drawable poto4
+drawable poto5
+drawable poto6
+string affirmation1
+string affirmation2
+string affirmation3
+string affirmation4
+string affirmation5
+string affirmation6
+string app_name

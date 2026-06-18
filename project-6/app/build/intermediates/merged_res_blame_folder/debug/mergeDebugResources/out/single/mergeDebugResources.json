@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.qoqokoi.myapp-debug-41:/drawable_poto1.jpg.flat",
+        "source": "com.qoqokoi.myapp-main-43:/drawable/poto1.jpg"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-41:/drawable_poto6.jpg.flat",
+        "source": "com.qoqokoi.myapp-main-43:/drawable/poto6.jpg"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-41:/drawable_poto2.jpg.flat",
+        "source": "com.qoqokoi.myapp-main-43:/drawable/poto2.jpg"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-41:/drawable_poto5.jpg.flat",
+        "source": "com.qoqokoi.myapp-main-43:/drawable/poto5.jpg"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-41:/drawable_poto4.jpg.flat",
+        "source": "com.qoqokoi.myapp-main-43:/drawable/poto4.jpg"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-debug-41:/drawable_poto3.jpg.flat",
+        "source": "com.qoqokoi.myapp-main-43:/drawable/poto3.jpg"
+    }
+]
