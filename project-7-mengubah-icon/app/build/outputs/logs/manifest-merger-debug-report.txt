@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:2:1-16:12
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:2:1-16:12
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.compose.material3:material3:1.1.2] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/68396e9178e08347b9566048d031261e/transformed/jetified-material3-1.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-compose:1.8.2] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/c739d34f06413c05acecff82cab3e7ae/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-core-android:1.6.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/3b0a3e19e1541ea6712f0ad91a9cb276/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
@@ -46,16 +46,16 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/Qoqokoi/.gr
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/00a4b6038e3369f34ff659956dcc701c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/9d256efbdadf6a75925ab3ee1f6e2ad0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 	package
-		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:3:5-15:19
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:3:5-15:19
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:3:5-17:19
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:3:5-17:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/f74169a565e73bfa0b244de6b71bb971/transformed/jetified-ui-test-manifest-1.6.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.6.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/f74169a565e73bfa0b244de6b71bb971/transformed/jetified-ui-test-manifest-1.6.0/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/8ec8e51ed7519d18a68225802a7c4cfd/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
@@ -71,35 +71,39 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/Qoqokoi/.gr
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/00a4b6038e3369f34ff659956dcc701c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/00a4b6038e3369f34ff659956dcc701c/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/e03a52092bca8e5c719e40fe986ae624/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:5:9-36
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:5:9-40
+	android:roundIcon
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:7:9-54
+	android:icon
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:6:9-43
 	android:allowBackup
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:4:9-35
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:4:9-35
 	android:theme
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:6:9-71
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:8:9-71
 activity#com.qoqokoi.myapp.MainActivity
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:7:9-14:20
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:9:9-16:20
 	android:exported
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:9:13-36
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:11:13-36
 	android:name
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:8:13-41
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:10:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:10:13-13:29
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:12:13-15:29
 action#android.intent.action.MAIN
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:11:17-69
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:13:17-69
 	android:name
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:11:25-66
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:12:17-77
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml:12:27-74
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml:14:27-74
 uses-sdk
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 MERGED from [androidx.compose.material3:material3:1.1.2] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/68396e9178e08347b9566048d031261e/transformed/jetified-material3-1.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/68396e9178e08347b9566048d031261e/transformed/jetified-material3-1.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-compose:1.8.2] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/c739d34f06413c05acecff82cab3e7ae/transformed/jetified-activity-compose-1.8.2/AndroidManifest.xml:5:5-44
@@ -183,9 +187,9 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Qoqokoi/.gradle/cache
 MERGED from [androidx.tracing:tracing:1.0.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/9d256efbdadf6a75925ab3ee1f6e2ad0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/9d256efbdadf6a75925ab3ee1f6e2ad0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/AndroidManifest.xml
 activity#androidx.activity.ComponentActivity
 ADDED from [androidx.compose.ui:ui-test-manifest:1.6.0] /home/Qoqokoi/.gradle/caches/9.5.1/transforms/f74169a565e73bfa0b244de6b71bb971/transformed/jetified-ui-test-manifest-1.6.0/AndroidManifest.xml:23:9-25:39
 	android:exported

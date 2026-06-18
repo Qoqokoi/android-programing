@@ -1189,23 +1189,6 @@
                     }
                 },
                 {
-                    "source": "/home/Qoqokoi/Documents/kuliah/android-programing/project-6/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "3,4,5,6,7,8,2",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "109,190,281,366,454,546,55",
-                        "endColumns": "80,90,84,87,91,78,53",
-                        "endOffsets": "185,276,361,449,541,620,104"
-                    },
-                    "to": {
-                        "startLines": "98,99,100,101,102,103,105",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "5937,6018,6109,6194,6282,6374,6536",
-                        "endColumns": "80,90,84,87,91,78,53",
-                        "endOffsets": "6013,6104,6189,6277,6369,6448,6585"
-                    }
-                },
-                {
                     "source": "/home/Qoqokoi/.gradle/caches/9.5.1/transforms/f7f914c0acfb7f379b49e4326d5c5125/transformed/lifecycle-viewmodel-2.7.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -1362,6 +1345,23 @@
                         "startOffsets": "5710",
                         "endColumns": "53",
                         "endOffsets": "5759"
+                    }
+                },
+                {
+                    "source": "/home/Qoqokoi/Documents/kuliah/android-programing/project-7-mengubah-icon/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,2",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "109,190,281,366,454,546,55",
+                        "endColumns": "80,90,84,87,91,78,53",
+                        "endOffsets": "185,276,361,449,541,620,104"
+                    },
+                    "to": {
+                        "startLines": "98,99,100,101,102,103,105",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5937,6018,6109,6194,6282,6374,6536",
+                        "endColumns": "80,90,84,87,91,78,53",
+                        "endOffsets": "6013,6104,6189,6277,6369,6448,6585"
                     }
                 }
             ]

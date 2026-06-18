@@ -6,6 +6,10 @@ drawable poto3
 drawable poto4
 drawable poto5
 drawable poto6
+mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 string affirmation1
 string affirmation2
 string affirmation3
