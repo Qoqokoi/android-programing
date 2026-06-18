@@ -6,11 +6,18 @@
 
 ---
 
-## 1. Struktur Direktori Pengujian
-* **Local Unit Test (`app/src/test/`):** Digunakan untuk menguji `calculateTipTest` guna memastikan akurasi formula matematis murni pada JVM lokal secara terisolasi.
-* **Instrumentation Test (`app/src/androidTest/`):** Menggunakan `ui-test-junit4` untuk mensimulasikan input pengguna pada komponen Jetpack Compose secara riil di atas perangkat Android aktif.
+1. Mengapa Wajib Menggunakan Fungsi suspend?
+Sifat Asinkron (Non-Blocking): Operasi basis data (seperti query data dalam jumlah besar atau penulisan data ke disk) membutuhkan waktu pemrosesan yang tidak instan.
 
-## 2. Penjelasan Skenario Uji Kustom Mandiri
-* **Nama Skenario:** `calculateTip_NegativeAmount_ReturnsZero`
-* **Tujuan:** Memastikan arsitektur backend aplikasi kebal dari masukan data anomali (angka negatif).
-* **Logika:** Jika pengguna menginput nilai tagihan di bawah nol (`-50000.0`), sistem *pipeline* penanganan eror secara otomatis memaksa fungsi mengembalikan output tip senilai `0.0` (mencegah nilai minus bocor ke kalkulasi akhir).
+Mekanisme Kerja: Kata kunci suspend memberi tahu kompiler Kotlin bahwa fungsi tersebut memiliki kemampuan untuk ditangguhkan (di-pause) jalannya tanpa memblokir thread tempat ia berjalan.
+
+Dampak ke UI: Saat Room melakukan operasi pencarian data, UI aplikasi tetap bisa merespons input sentuhan pengguna secara lancar karena thread utama tidak dipaksa menunggu proses database selesai.
+
+2. Mengapa Wajib Dijalankan Melalui Dispatchers.IO?
+Alokasi Kapasitas Thread: Secara default, Jetpack Compose berjalan di Dispatchers.Main (Main Thread) yang bertugas khusus menangani rendering grafis antarmuka (UI). Jika thread ini dibebani operasi berat, aplikasi akan mengalami dropped frames (patah-patah) atau memicu eror ANR (Application Not Responding).
+
+Optimasi Thread Pool: Dispatchers.IO adalah sekumpulan thread pool yang memang dirancang dan dioptimalkan secara khusus oleh runtime Android untuk menangani beban kerja Disk I/O (baca-tulis file/database) dan Network I/O (akses API/internet).
+
+Efisiensi: Memindahkan eksekusi fungsi DAO ke Dispatchers.IO memastikan bahwa beban kerja berat diisolasi ke background thread, sehingga Main Thread tetap bersih dan responsif untuk melayani interaksi pengguna.
+
+
