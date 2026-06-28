@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical" android:tag="layout/item_header_0" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Perangkat Infrastruktur Jaringan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+         

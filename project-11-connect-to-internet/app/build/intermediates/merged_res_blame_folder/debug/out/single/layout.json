@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.qoqokoi.myapp-mergeDebugResources-43:/layout/item_header.xml",
+        "source": "com.qoqokoi.myapp-main-46:/layout/item_header.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-mergeDebugResources-43:/layout/item_inventory.xml",
+        "source": "com.qoqokoi.myapp-main-46:/layout/item_inventory.xml"
+    },
+    {
+        "merged": "com.qoqokoi.myapp-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.qoqokoi.myapp-main-46:/layout/activity_main.xml"
+    }
+]

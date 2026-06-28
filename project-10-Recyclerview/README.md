@@ -2,7 +2,7 @@
 
 ## Identitas Lengkap
 * **Nama:** Muhammad Dafi Al Haq
-* **NIM:** [Masukkan NIM Anda di Sini]
+* **NIM:** 452024611067  
 
 ## Dokumentasi Tampilan Aplikasi
 Berikut adalah dokumentasi visual running aplikasi yang menunjukkan implementasi daftar berbentuk Grid (3 kolom), pemisahan Multiple View Type antara komponen komponen Header dan Item Data Perangkat Jaringan, serta penerapan kustom format mata uang Rupiah langsung dari XML:
