@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Desain UI</string>
+    <string name="welcome_title">Demo Material Design</string>
+    <string name="input_label">Masukkan Nama Perangkat</string>
+    <string name="input_hint">contoh: Switch-Core-01</string>
+    <string name="card_description">Kartu ini mengimplementasikan MaterialCardView dengan tipografi adaptif dan tata letak RTL.</string>
+    <string name="action_saved">Perangkat berhasil didaftarkan!</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_settings">Pengaturan</string>
+</resources>

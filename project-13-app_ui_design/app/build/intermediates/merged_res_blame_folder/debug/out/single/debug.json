@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-merged_res-31:/drawable_ic_home.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-main-33:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-merged_res-31:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-main-33:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-merged_res-31:/drawable_ic_add.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-main-33:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-merged_res-31:/drawable_ic_settings.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.myapp-main-33:/drawable/ic_settings.xml"
+    }
+]

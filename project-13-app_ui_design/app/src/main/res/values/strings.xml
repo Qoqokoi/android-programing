@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UI Design</string>
+    <string name="welcome_title">Material Design Demo</string>
+    <string name="input_label">Enter Device Name</string>
+    <string name="input_hint">e.g., Switch-Core-01</string>
+    <string name="card_description">This card demonstrates MaterialCardView with adaptive typography and RTL layouts.</string>
+    <string name="action_saved">Device successfully registered!</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.qoqokoi.myapp-mergeDebugResources-29:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/home/Qoqokoi/Documents/kuliah/android-programing/project-13-app_ui_design/app/src/main/res/values-b+id/strings.xml",
+                    "from": {
+                        "startLines": "6,1,5,4,3,7,8,2",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "389,16,252,190,126,462,508,63",
+                        "endColumns": "72,46,136,61,63,45,52,62",
+                        "endOffsets": "457,58,384,247,185,503,556,121"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,175,312,374,438,484,537",
+                        "endColumns": "72,46,136,61,63,45,52,62",
+                        "endOffsets": "123,170,307,369,433,479,532,595"
+                    }
+                }
+            ]
+        }
+    ]
+}

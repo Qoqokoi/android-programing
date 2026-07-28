@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color md_theme_dark_onPrimary
+color md_theme_dark_primary
+color md_theme_dark_secondary
+color md_theme_light_onPrimary
+color md_theme_light_primary
+color md_theme_light_secondary
+drawable ic_add
+drawable ic_home
+drawable ic_settings
+id bottomNavigation
+id coordinatorLayout
+id etDeviceName
+id fabAdd
+id navigation_home
+id navigation_settings
+id textInputLayout
+layout activity_main
+menu bottom_nav_menu
+string action_saved
+string app_name
+string card_description
+string input_hint
+string input_label
+string menu_home
+string menu_settings
+string welcome_title
+style Theme.myapp
