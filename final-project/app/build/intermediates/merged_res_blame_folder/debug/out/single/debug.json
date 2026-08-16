@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.qoqokoi.librepulse.app-merged_res-41:/layout_item_device.xml.flat",
+        "source": "com.qoqokoi.librepulse.app-main-43:/layout/item_device.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-41:/layout_item_device.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-43:/layout/item_device.xml"
+    }
+]

@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+id rvDevices
+id tvGlobalDown
+id tvGlobalUp
+id tvHostname
+id tvIpAddress
+id tvPortDown
+id tvPortUp
+id tvStatusBadge
+layout activity_main
+layout item_device
+style Theme.LibrePulse
