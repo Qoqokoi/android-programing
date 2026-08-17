@@ -4,11 +4,13 @@ package com.qoqokoi.librepulse.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.qoqokoi.librepulse.R;
@@ -21,20 +23,29 @@ public final class ActivityMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final ImageButton btnThemeToggle;
+
+  @NonNull
   public final RecyclerView rvDevices;
 
   @NonNull
-  public final TextView tvGlobalDown;
+  public final SwipeRefreshLayout swipeRefresh;
 
   @NonNull
-  public final TextView tvGlobalUp;
+  public final TextView tvDeviceDownCount;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull RecyclerView rvDevices,
-      @NonNull TextView tvGlobalDown, @NonNull TextView tvGlobalUp) {
+  @NonNull
+  public final TextView tvDeviceUpCount;
+
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnThemeToggle,
+      @NonNull RecyclerView rvDevices, @NonNull SwipeRefreshLayout swipeRefresh,
+      @NonNull TextView tvDeviceDownCount, @NonNull TextView tvDeviceUpCount) {
     this.rootView = rootView;
+    this.btnThemeToggle = btnThemeToggle;
     this.rvDevices = rvDevices;
-    this.tvGlobalDown = tvGlobalDown;
-    this.tvGlobalUp = tvGlobalUp;
+    this.swipeRefresh = swipeRefresh;
+    this.tvDeviceDownCount = tvDeviceDownCount;
+    this.tvDeviceUpCount = tvDeviceUpCount;
   }
 
   @Override
@@ -64,25 +75,38 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnThemeToggle;
+      ImageButton btnThemeToggle = ViewBindings.findChildViewById(rootView, id);
+      if (btnThemeToggle == null) {
+        break missingId;
+      }
+
       id = R.id.rvDevices;
       RecyclerView rvDevices = ViewBindings.findChildViewById(rootView, id);
       if (rvDevices == null) {
         break missingId;
       }
 
-      id = R.id.tvGlobalDown;
-      TextView tvGlobalDown = ViewBindings.findChildViewById(rootView, id);
-      if (tvGlobalDown == null) {
+      id = R.id.swipeRefresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
         break missingId;
       }
 
-      id = R.id.tvGlobalUp;
-      TextView tvGlobalUp = ViewBindings.findChildViewById(rootView, id);
-      if (tvGlobalUp == null) {
+      id = R.id.tvDeviceDownCount;
+      TextView tvDeviceDownCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvDeviceDownCount == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, rvDevices, tvGlobalDown, tvGlobalUp);
+      id = R.id.tvDeviceUpCount;
+      TextView tvDeviceUpCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvDeviceUpCount == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, btnThemeToggle, rvDevices,
+          swipeRefresh, tvDeviceDownCount, tvDeviceUpCount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

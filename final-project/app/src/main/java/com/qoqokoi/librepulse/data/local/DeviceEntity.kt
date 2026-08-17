@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData
 @Entity(tableName = "devices")
 data class DeviceEntity(
     @PrimaryKey val deviceId: String,
+    val sysName: String,
     val hostname: String,
     val ip: String,
     val status: String,

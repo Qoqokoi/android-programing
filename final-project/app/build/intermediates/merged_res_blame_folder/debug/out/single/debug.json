@@ -1,14 +1,30 @@
 [
     {
-        "merged": "com.qoqokoi.librepulse.app-merged_res-41:/layout_item_device.xml.flat",
-        "source": "com.qoqokoi.librepulse.app-main-43:/layout/item_device.xml"
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-42:/layout_item_device.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-44:/layout/item_device.xml"
     },
     {
-        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-41:/layout_activity_main.xml.flat",
-        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-43:/layout/activity_main.xml"
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-42:/layout_activity_detail.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-44:/layout/activity_detail.xml"
     },
     {
-        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-41:/layout_item_device.xml.flat",
-        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-43:/layout/item_device.xml"
+        "merged": "com.qoqokoi.librepulse.app-merged_res-42:/layout_item_port_detail.xml.flat",
+        "source": "com.qoqokoi.librepulse.app-main-44:/layout/item_port_detail.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-42:/drawable_ic_theme_toggle.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-44:/drawable/ic_theme_toggle.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-42:/layout_item_port_detail.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-44:/layout/item_port_detail.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-42:/layout_activity_main.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-merged_res-42:/drawable_ic_librepulse_logo.xml.flat",
+        "source": "/home/Qoqokoi/.gradle/daemon/8.5/com.qoqokoi.librepulse.app-main-44:/drawable/ic_librepulse_logo.xml"
     }
 ]

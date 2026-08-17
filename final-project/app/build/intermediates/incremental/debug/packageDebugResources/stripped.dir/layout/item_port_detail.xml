@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPortTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ether1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Display IP Address per-Port -->
+            <TextView
+                android:id="@+id/tvPortIp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IP: 10.10.17.170/24"
+                android:textColor="#00E676"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp" />
+
+            <!-- Display Link Speed & Alias -->
+            <TextView
+                android:id="@+id/tvPortMeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 Mbps • ether1"
+                android:textColor="#888888"
+                android:textSize="11sp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPortBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="5dp"
+            android:text="UP"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -9,6 +9,7 @@
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
         android:name="com.qoqokoi.librepulse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -21,8 +22,9 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@android:drawable/sym_def_app_icon"
+        android:icon="@drawable/ic_librepulse_logo"
         android:label="LibrePulse"
+        android:roundIcon="@drawable/ic_librepulse_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.LibrePulse"
         android:usesCleartextTraffic="true" >
@@ -35,6 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.qoqokoi.librepulse.ui.DetailActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

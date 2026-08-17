@@ -20,29 +20,30 @@ public final class ItemDeviceBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
-  public final TextView tvHostname;
+  public final TextView tvHardwareStatusBadge;
 
   @NonNull
   public final TextView tvIpAddress;
 
   @NonNull
-  public final TextView tvPortDown;
+  public final TextView tvPortDownLabel;
 
   @NonNull
-  public final TextView tvPortUp;
+  public final TextView tvPortUpLabel;
 
   @NonNull
-  public final TextView tvStatusBadge;
+  public final TextView tvSysName;
 
-  private ItemDeviceBinding(@NonNull MaterialCardView rootView, @NonNull TextView tvHostname,
-      @NonNull TextView tvIpAddress, @NonNull TextView tvPortDown, @NonNull TextView tvPortUp,
-      @NonNull TextView tvStatusBadge) {
+  private ItemDeviceBinding(@NonNull MaterialCardView rootView,
+      @NonNull TextView tvHardwareStatusBadge, @NonNull TextView tvIpAddress,
+      @NonNull TextView tvPortDownLabel, @NonNull TextView tvPortUpLabel,
+      @NonNull TextView tvSysName) {
     this.rootView = rootView;
-    this.tvHostname = tvHostname;
+    this.tvHardwareStatusBadge = tvHardwareStatusBadge;
     this.tvIpAddress = tvIpAddress;
-    this.tvPortDown = tvPortDown;
-    this.tvPortUp = tvPortUp;
-    this.tvStatusBadge = tvStatusBadge;
+    this.tvPortDownLabel = tvPortDownLabel;
+    this.tvPortUpLabel = tvPortUpLabel;
+    this.tvSysName = tvSysName;
   }
 
   @Override
@@ -72,9 +73,9 @@ public final class ItemDeviceBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.tvHostname;
-      TextView tvHostname = ViewBindings.findChildViewById(rootView, id);
-      if (tvHostname == null) {
+      id = R.id.tvHardwareStatusBadge;
+      TextView tvHardwareStatusBadge = ViewBindings.findChildViewById(rootView, id);
+      if (tvHardwareStatusBadge == null) {
         break missingId;
       }
 
@@ -84,26 +85,26 @@ public final class ItemDeviceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvPortDown;
-      TextView tvPortDown = ViewBindings.findChildViewById(rootView, id);
-      if (tvPortDown == null) {
+      id = R.id.tvPortDownLabel;
+      TextView tvPortDownLabel = ViewBindings.findChildViewById(rootView, id);
+      if (tvPortDownLabel == null) {
         break missingId;
       }
 
-      id = R.id.tvPortUp;
-      TextView tvPortUp = ViewBindings.findChildViewById(rootView, id);
-      if (tvPortUp == null) {
+      id = R.id.tvPortUpLabel;
+      TextView tvPortUpLabel = ViewBindings.findChildViewById(rootView, id);
+      if (tvPortUpLabel == null) {
         break missingId;
       }
 
-      id = R.id.tvStatusBadge;
-      TextView tvStatusBadge = ViewBindings.findChildViewById(rootView, id);
-      if (tvStatusBadge == null) {
+      id = R.id.tvSysName;
+      TextView tvSysName = ViewBindings.findChildViewById(rootView, id);
+      if (tvSysName == null) {
         break missingId;
       }
 
-      return new ItemDeviceBinding((MaterialCardView) rootView, tvHostname, tvIpAddress, tvPortDown,
-          tvPortUp, tvStatusBadge);
+      return new ItemDeviceBinding((MaterialCardView) rootView, tvHardwareStatusBadge, tvIpAddress,
+          tvPortDownLabel, tvPortUpLabel, tvSysName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

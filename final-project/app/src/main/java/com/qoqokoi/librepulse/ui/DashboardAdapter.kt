@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.qoqokoi.librepulse.data.local.DeviceEntity
 import com.qoqokoi.librepulse.databinding.ItemDeviceBinding
 
-class DashboardAdapter : RecyclerView.Adapter<DashboardAdapter.ViewHolder>() {
+class DashboardAdapter(
+    private val onItemClick: (DeviceEntity) -> Unit
+) : RecyclerView.Adapter<DashboardAdapter.ViewHolder>() {
 
     private var list = listOf<DeviceEntity>()
 
@@ -27,26 +29,29 @@ class DashboardAdapter : RecyclerView.Adapter<DashboardAdapter.ViewHolder>() {
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val device = list[position]
         holder.binding.apply {
-            tvHostname.text = device.hostname
-            tvIpAddress.text = "Host: ${device.ip}"
+            tvSysName.text = device.sysName
+            tvIpAddress.text = "Host IP: ${device.ip}"
 
             val isUp = device.status.uppercase() == "UP"
-            tvStatusBadge.text = if (isUp) "ONLINE" else "OFFLINE"
+            tvHardwareStatusBadge.text = if (isUp) "ONLINE" else "OFFLINE"
 
             val bgShape = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 16f
                 setColor(if (isUp) Color.parseColor("#2E7D32") else Color.parseColor("#C62828"))
             }
-            tvStatusBadge.background = bgShape
+            tvHardwareStatusBadge.background = bgShape
 
-            // Dead-Host Safety Handler check
             if (isUp && device.portsUp != null && device.portsDown != null) {
-                tvPortUp.text = "Up: ${device.portsUp}"
-                tvPortDown.text = "Down: ${device.portsDown}"
+                tvPortUpLabel.text = "Up: ${device.portsUp}"
+                tvPortDownLabel.text = "Down: ${device.portsDown}"
             } else {
-                tvPortUp.text = "Up: -"
-                tvPortDown.text = "Down: -"
+                tvPortUpLabel.text = "Up: -"
+                tvPortDownLabel.text = "Down: -"
+            }
+
+            root.setOnClickListener {
+                onItemClick(device)
             }
         }
     }

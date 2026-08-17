@@ -12,12 +12,16 @@ interface LibreNmsApi {
     @GET("api/v0/devices")
     suspend fun getDevices(): LibreDeviceResponse
 
-    // Request kolom status operasional secara eksplisit ke LibreNMS
     @GET("api/v0/devices/{id}/ports")
     suspend fun getPorts(
         @Path("id") deviceId: String,
-        @Query("columns") columns: String = "ifName,ifOperStatus,ifAdminStatus,disabled"
+        @Query("columns", encoded = true) columns: String = "port_id,ifName,ifDescr,ifAlias,ifOperStatus,ifAdminStatus,ifSpeed,disabled,deleted"
     ): LibrePortResponse
+
+    @GET("api/v0/devices/{id}/ip")
+    suspend fun getDeviceIps(
+        @Path("id") deviceId: String
+    ): LibreIpResponse
 
     companion object {
         private const val BASE_URL = "http://10.10.17.210:8088/"

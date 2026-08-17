@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.qoqokoi.librepulse.app-mergeDebugResources-39:/values-fa/values-fa.xml",
+            "outputFile": "com.qoqokoi.librepulse.app-mergeDebugResources-40:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/home/Qoqokoi/.gradle/caches/transforms-3/68ba981d9e5258a3e1e104c0a28b7331/transformed/appcompat-1.6.1/res/values-fa/values-fa.xml",

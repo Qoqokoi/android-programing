@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] /home/Qoqokoi/.gradle/caches/transforms-3/88e4d8f1af683be3864738e2af970849/transformed/jetified-viewbinding-8.2.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] /home/Qoqokoi/.gradle/caches/transforms-3/60ab7d8bba1a1aa148c3c1bd09bceffd/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Qoqokoi/.gradle/caches/transforms-3/6b3c89de9b6954e9834ff410566948c0/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -13,6 +13,7 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/Qoqokoi/.gradle/caches/
 MERGED from [androidx.fragment:fragment:1.3.6] /home/Qoqokoi/.gradle/caches/transforms-3/3d3a8b0f0f6329d0854ced1600b50d5c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.2] /home/Qoqokoi/.gradle/caches/transforms-3/c5f12bafbfe12665f1700e0ea155119a/transformed/jetified-activity-1.8.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] /home/Qoqokoi/.gradle/caches/transforms-3/72d95df84135535c28bc9ea314eaf937/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/Qoqokoi/.gradle/caches/transforms-3/64ee56735b577ad904c9279cc9ee0e55/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/e4b19f91f5db15a9cab1d677af59b731/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/1bfc390a417f9fcedf07a2409f272d9c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/Qoqokoi/.gradle/caches/transforms-3/c29af22a437a0215de2eb85693daf1db/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
@@ -47,8 +48,8 @@ MERGED from [androidx.sqlite:sqlite:2.4.0] /home/Qoqokoi/.gradle/caches/transfor
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/Qoqokoi/.gradle/caches/transforms-3/214aa0ee7b7dc7d1c8e7e5e40075d0f1/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/b167c5d828967c1d6759d67265a85887/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/396107e64ea6a215995663a29e1e24ac/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/d95d74074fed6512f85ae701ac8d387a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/8f319af37c642158b7cd97e8cd8d271e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/d95d74074fed6512f85ae701ac8d387a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Qoqokoi/.gradle/caches/transforms-3/1c7d562a699bca6d52347344ad37b8c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/Qoqokoi/.gradle/caches/transforms-3/a0be6ef224b8f8170aefcdcf0b2cee0b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Qoqokoi/.gradle/caches/transforms-3/d6dfc0cd6c5c779b844ff8c2cbecc481/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
@@ -68,9 +69,13 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
 		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:5:22-76
 application
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:6:5-21:19
-INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:6:5-21:19
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:7:5-28:19
+INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:7:5-28:19
 MERGED from [com.google.android.material:material:1.11.0] /home/Qoqokoi/.gradle/caches/transforms-3/60ab7d8bba1a1aa148c3c1bd09bceffd/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /home/Qoqokoi/.gradle/caches/transforms-3/60ab7d8bba1a1aa148c3c1bd09bceffd/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/Qoqokoi/.gradle/caches/transforms-3/6b3c89de9b6954e9834ff410566948c0/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -94,33 +99,41 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/Qoqokoi/.gradle/cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /home/Qoqokoi/.gradle/caches/transforms-3/93736a57ab220038d3eebeca4a7c4282/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:11:9-35
+	android:roundIcon
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:10:9-57
 	android:icon
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:8:9-58
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:9:9-52
 	android:allowBackup
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:12:9-48
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:13:9-48
 	android:usesCleartextTraffic
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:11:9-44
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:14:9-44
 activity#com.qoqokoi.librepulse.ui.MainActivity
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:13:9-20:20
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:exported
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:15:13-36
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:14:13-44
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:17:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:16:13-19:29
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.qoqokoi.librepulse.ui.DetailActivity
+ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml:26:13-46
 uses-sdk
 INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/Qoqokoi/Documents/kuliah/android-programing/final-project/app/src/main/AndroidManifest.xml
@@ -143,6 +156,8 @@ MERGED from [androidx.activity:activity:1.8.2] /home/Qoqokoi/.gradle/caches/tran
 MERGED from [androidx.activity:activity:1.8.2] /home/Qoqokoi/.gradle/caches/transforms-3/c5f12bafbfe12665f1700e0ea155119a/transformed/jetified-activity-1.8.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] /home/Qoqokoi/.gradle/caches/transforms-3/72d95df84135535c28bc9ea314eaf937/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] /home/Qoqokoi/.gradle/caches/transforms-3/72d95df84135535c28bc9ea314eaf937/transformed/jetified-activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/Qoqokoi/.gradle/caches/transforms-3/64ee56735b577ad904c9279cc9ee0e55/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/Qoqokoi/.gradle/caches/transforms-3/64ee56735b577ad904c9279cc9ee0e55/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/e4b19f91f5db15a9cab1d677af59b731/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/e4b19f91f5db15a9cab1d677af59b731/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/1bfc390a417f9fcedf07a2409f272d9c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
@@ -211,10 +226,10 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Qoqokoi/.gradle/c
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/b167c5d828967c1d6759d67265a85887/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/396107e64ea6a215995663a29e1e24ac/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/396107e64ea6a215995663a29e1e24ac/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/d95d74074fed6512f85ae701ac8d387a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/d95d74074fed6512f85ae701ac8d387a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/8f319af37c642158b7cd97e8cd8d271e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Qoqokoi/.gradle/caches/transforms-3/8f319af37c642158b7cd97e8cd8d271e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/d95d74074fed6512f85ae701ac8d387a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/Qoqokoi/.gradle/caches/transforms-3/d95d74074fed6512f85ae701ac8d387a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Qoqokoi/.gradle/caches/transforms-3/1c7d562a699bca6d52347344ad37b8c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/Qoqokoi/.gradle/caches/transforms-3/1c7d562a699bca6d52347344ad37b8c0/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/Qoqokoi/.gradle/caches/transforms-3/a0be6ef224b8f8170aefcdcf0b2cee0b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44

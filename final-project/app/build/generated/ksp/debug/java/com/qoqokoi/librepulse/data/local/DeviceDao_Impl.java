@@ -39,25 +39,26 @@ public final class DeviceDao_Impl implements DeviceDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR REPLACE INTO `devices` (`deviceId`,`hostname`,`ip`,`status`,`portsUp`,`portsDown`) VALUES (?,?,?,?,?,?)";
+        return "INSERT OR REPLACE INTO `devices` (`deviceId`,`sysName`,`hostname`,`ip`,`status`,`portsUp`,`portsDown`) VALUES (?,?,?,?,?,?,?)";
       }
 
       @Override
       protected void bind(@NonNull final SupportSQLiteStatement statement,
           @NonNull final DeviceEntity entity) {
         statement.bindString(1, entity.getDeviceId());
-        statement.bindString(2, entity.getHostname());
-        statement.bindString(3, entity.getIp());
-        statement.bindString(4, entity.getStatus());
+        statement.bindString(2, entity.getSysName());
+        statement.bindString(3, entity.getHostname());
+        statement.bindString(4, entity.getIp());
+        statement.bindString(5, entity.getStatus());
         if (entity.getPortsUp() == null) {
-          statement.bindNull(5);
-        } else {
-          statement.bindLong(5, entity.getPortsUp());
-        }
-        if (entity.getPortsDown() == null) {
           statement.bindNull(6);
         } else {
-          statement.bindLong(6, entity.getPortsDown());
+          statement.bindLong(6, entity.getPortsUp());
+        }
+        if (entity.getPortsDown() == null) {
+          statement.bindNull(7);
+        } else {
+          statement.bindLong(7, entity.getPortsDown());
         }
       }
     };
@@ -93,6 +94,7 @@ public final class DeviceDao_Impl implements DeviceDao {
         final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
         try {
           final int _cursorIndexOfDeviceId = CursorUtil.getColumnIndexOrThrow(_cursor, "deviceId");
+          final int _cursorIndexOfSysName = CursorUtil.getColumnIndexOrThrow(_cursor, "sysName");
           final int _cursorIndexOfHostname = CursorUtil.getColumnIndexOrThrow(_cursor, "hostname");
           final int _cursorIndexOfIp = CursorUtil.getColumnIndexOrThrow(_cursor, "ip");
           final int _cursorIndexOfStatus = CursorUtil.getColumnIndexOrThrow(_cursor, "status");
@@ -103,6 +105,8 @@ public final class DeviceDao_Impl implements DeviceDao {
             final DeviceEntity _item;
             final String _tmpDeviceId;
             _tmpDeviceId = _cursor.getString(_cursorIndexOfDeviceId);
+            final String _tmpSysName;
+            _tmpSysName = _cursor.getString(_cursorIndexOfSysName);
             final String _tmpHostname;
             _tmpHostname = _cursor.getString(_cursorIndexOfHostname);
             final String _tmpIp;
@@ -121,7 +125,7 @@ public final class DeviceDao_Impl implements DeviceDao {
             } else {
               _tmpPortsDown = _cursor.getInt(_cursorIndexOfPortsDown);
             }
-            _item = new DeviceEntity(_tmpDeviceId,_tmpHostname,_tmpIp,_tmpStatus,_tmpPortsUp,_tmpPortsDown);
+            _item = new DeviceEntity(_tmpDeviceId,_tmpSysName,_tmpHostname,_tmpIp,_tmpStatus,_tmpPortsUp,_tmpPortsDown);
             _result.add(_item);
           }
           return _result;
